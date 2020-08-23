@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@storybook/addon-docs": "^5.2.3",
-    "@storybook/addon-knobs": "^5.2.3",
+    "@storybook/addon-docs": "^6.0.16",
+    "@storybook/addon-knobs": "^6.0.16",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -25,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "upgrade-storybook":"sb upgrade"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,8 +46,8 @@
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@storybook/addon-actions": "^6.0.16",
-    "@storybook/addon-info": "^5.3.17",
-    "@storybook/addon-a11y": "^5.3.17",
+    "@storybook/addon-info": "^5.3.19",
+    "@storybook/addon-a11y": "^6.0.16",
     "@storybook/addon-essentials": "^6.0.16",
     "@storybook/addon-links": "^6.0.16",
     "@storybook/node-logger": "^6.0.16",
