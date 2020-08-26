@@ -5,6 +5,9 @@ module.exports = {
   ],
   addons: [
     "@storybook/addon-links",
+    "@storybook/addon-knobs",
+    '@storybook/addon-actions',
+    '@storybook/addon-storysource',
     "@storybook/addon-essentials",
     {
       name: "@storybook/preset-create-react-app",

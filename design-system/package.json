@@ -58,6 +58,8 @@
     "babel-loader": "^8.1.0",
     "react-docgen-typescript-loader": "^3.7.2",
     "react-is": "^16.13.1",
-    "prettier": "~2.1.0"
+    "prettier": "~2.1.0",
+    "@storybook/addon-storysource": "~6.0.18",
+    "@storybook/addon-knobs": "~6.0.18"
   }
 }
